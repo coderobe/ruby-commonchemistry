@@ -20,7 +20,7 @@ module CommonChemistry
     base_uri 'https://commonchemistry.cas.org/api'
 
     def initialize
-      # Any initialization if needed
+      # TODO
     end
 
     # Searches for substances matching the query
@@ -177,23 +177,3 @@ module CommonChemistry
   end
 end
 
-
-## Usage Example
-
-# def from_name n
-#   client = CommonChemistry::Client.new
-#   search_results = client.search(q: n)
-#   client.detail(cas_rn: search_results.results.first.rn)
-# end
-
-# client = CommonChemistry::Client.new
-
-# export_data = client.export(uri: 'substance/pt/7732185')
-# puts export_data
-
-# ibu = from_name 'ibuprofen'
-# puts "Name: #{ibu.name}"
-# puts "Molecular Formula: #{ibu.molecular_formula}"
-
-# require 'pry'
-# binding.pry
