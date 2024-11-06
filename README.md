@@ -13,8 +13,6 @@ A Ruby client library for the [Common Chemistry API](https://commonchemistry.cas
   - [Export Substance Data](#export-substance-data)
 - [Classes and Data Models](#classes-and-data-models)
 - [Error Handling](#error-handling)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
