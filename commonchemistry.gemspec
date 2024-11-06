@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["coderobe"]
   spec.email         = ["git@coderobe.net"]
   spec.homepage      = "https://github.com/coderobe/ruby-commonchemistry"
+  spec.licenses      = ["MIT"]
 
   spec.files         = Dir["lib/**/*.rb"]
   spec.require_paths = ["lib"]
